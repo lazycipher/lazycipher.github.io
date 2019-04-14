@@ -22,7 +22,12 @@ body {
 .homePhoto {
     max-height: 350px;
     border-radius: 50%;
+}
 
+@media (min-width: 320px) and (max-width: 480px){
+    .homePhoto {
+        max-height: 250px;
+    }
 }
 
 .homeDescription {
@@ -114,9 +119,9 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media (min-width: 320px) and (max-width: 480px){
     .brandLogoResponsive span{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
