@@ -11,14 +11,24 @@
 .homePhoto {
     max-height: 350px;
     border-radius: 50%;
+
 }
 
 .homeDescription {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.homeDescription p {
     font-size: 1.8em;
     font-weight: bold;
     font-family: 'Source Code Pro', monospace;
-    padding: 15px;
-    border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #home {
+        height: 100%;
+    }
 }
 
 .homeProfile hr {
@@ -30,10 +40,12 @@
 }
 
 .socialIcons {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     width: auto;
     margin: auto;
+    text-align: center; 
+    background-color: none;
 }
 
 .socialIcons i {
@@ -154,6 +166,12 @@
     display: inline;
     font-size: 75px;
     margin-right: 12px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #skills p {
+        text-align: center;
+    }
 }
 
 /* Achievements Section */
