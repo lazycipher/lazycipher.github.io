@@ -30,12 +30,13 @@
                     <ul style="padding-left:10%;" class="left hide-on-med-and-down">
                         <!-- <li><a href="team.html">Cloud Research Team</a></li>                    -->
                         <li><a href="#about">about</a></li>
-                        <li><a href="#education">education & work</a></li>
+                        <li><a href="#skills">skills </a></li>
+                        <!-- <li><a href="#education">education & work</a></li> -->
                         
                     </ul>
         
                     <!-- Center -->
-                    <a href="index.html" class="brand-logo center"><span style="font-family: 'Source Code Pro', monospace;">&lt;lazycipher /&gt;</span> </a>
+                    <a href="index.html" class="brand-logo center brandLogoResponsive"><span>&lt;lazycipher /&gt;</span> </a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger pulse"><i class="material-icons ">menu</i></a>
                     
                     <!-- Right Size -->
@@ -43,18 +44,22 @@
                         <!-- <li><a href="team.html">Cloud Research Team</a></li>                    -->
                         
                         <li><a href="#projects">projects</a></li>
-                        <li><a href="#skills">skills </a></li>
                         <li><a href="#achievements">achievements</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul class="sidenav" id="mobile-demo">
-            <li class="brand-logo blue darken-4 center z-depth-3 valign-wrapper " style="height:250px; justify-content:center;"><img class="sideNavPhoto" src="img/lazycipher-Square.jpg"></li>
+            <li class="brand-logo blue darken-4 center z-depth-3 valign-wrapper " style="height:250px; justify-content:center;">
+                <img class="sideNavPhoto" src="img/lazycipher-Square.jpg">
+            </li>
+            <li class="blue darken-4 z-depth-3 center-align">
+                <span style="display:block; color: white; font-size: 20px;">Himanshu Singh</span>
+            </li>
             <li><a href="index.html">home</a></li>
             <li><a href="#about">about</a></li>
-            <li><a href="#education">education & work</a></li>
-            <li><a href="#projectts">projects</a></li>
+            <!-- <li><a href="#education">education & work</a></li> -->
+            <li><a href="#projects">projects</a></li>
             <li><a href="#skills">skills</a></li>
             <li><a href="#achievements">achievements</a></li>
         </ul>
@@ -79,7 +84,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -362,9 +366,17 @@
                 <div class="row">
                     <div class="col s12 m2"></div>
                     <div class="col s12 m8 center-align">
-                        <p>Hey there! Thanks for checking out my website. Feel free to contact me :)  <br /><span class="lazycipher">~ lazycipher ~</span></p>
+                        <p>Hey there! Thanks for checking out my website. Feel free to contact me :)  <br /><span class="lazycipher">~ lazycipher ~</span>
+                        </p>
                     </div>
                     <div class="col s12 m2"></div>
+                </div>
+                <div class="row">
+                    <div class="col s1 m2"></div>
+                    <div class="col s12 m8 center-align">
+                        <p style="color: rgb(100, 100, 100); padding-bottom: 10px !important; font-size: 12px;">&copy; <span class="copyrightYear"></span> All rights reserved.</p>
+                    </div>
+                    <div class="col s1 m2"></div>
                 </div>
             </div>
     </footer>
@@ -378,8 +390,9 @@ $(document).ready(function () {
     $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider();
     $('.collapsible').collapsible();
+    $('.copyrightYear').html(new Date().getFullYear());
   });
-        
+
 </script>
 </body>
 </html>

@@ -15,6 +15,7 @@
 }
 
 .homeDescription {
+    display: inline-block;
     padding: 15px;
     border-radius: 10px;
 }
@@ -28,6 +29,10 @@
 @media (min-width: 320px) and (max-width: 767px){
     #home {
         height: 100%;
+    }
+
+    .homeDescription{
+        text-align: left;
     }
 }
 
@@ -91,6 +96,15 @@
     margin: 18px;
 }
 
+.brandLogoResponsive span{
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .brandLogoResponsive span{
+        font-size: 25px;
+    }
+}
 
 /* ABOUT SECTION */
 
