@@ -75,8 +75,8 @@ body {
     font-size: 5em;
     padding: 8px;
     margin: 18px;
-    border-radius: 35%;
-    background-color: white;
+
+    /* background-color: white; */
 }
 
 /* Linkedin */
@@ -339,4 +339,76 @@ footer p {
 .lazycipher {
     font-family: 'Dokdo', monospace;
     font-size: 35px;
+}
+
+/* Community Section */
+
+#community {
+    height: 100%;
+    margin-top: 70px;
+}
+
+#community .container {
+    /* background: linear-gradient( to right, #24243e, #0d47a1); */
+    background: white;
+    border-radius: 25px;
+}
+
+#community p {
+    color: rgb(39, 39, 39);
+    font-size: 1rem;
+}
+
+#community h2 {
+    font-size: 3rem !important;
+    color: rgb(68, 68, 68);
+    margin-bottom: 0px;
+}
+
+#community hr {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    border: 0;
+    width: 20%;
+}
+
+#community .row .col .row {
+    padding-top: 40px; 
+}
+
+/* Courses Section */
+
+#courses {
+    height: 100%;
+    margin-top: 70px;
+}
+
+#courses .container {
+    /* background: linear-gradient( to right, #24243e, #0d47a1); */
+    background: white;
+    border-radius: 25px;
+}
+
+#courses p {
+    color: rgb(39, 39, 39);
+    font-size: 1rem;
+}
+
+#courses h2 {
+    font-size: 3rem !important;
+    color: rgb(68, 68, 68);
+    margin-bottom: 0px;
+}
+
+#courses hr {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    border: 0;
+    width: 20%;
+}
+
+#courses .row .col .row {
+    padding-top: 40px; 
 }
