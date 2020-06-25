@@ -412,3 +412,40 @@ footer p {
 #courses .row .col .row {
     padding-top: 40px; 
 }
+
+
+/* experience Section */
+
+#experience {
+    height: 100%;
+    margin-top: 70px;
+}
+
+#experience .container {
+    /* background: linear-gradient( to right, #24243e, #0d47a1); */
+    background: white;
+    border-radius: 25px;
+}
+
+#experience p {
+    color: rgb(39, 39, 39);
+    font-size: 1rem;
+}
+
+#experience h2 {
+    font-size: 3rem !important;
+    color: rgb(68, 68, 68);
+    margin-bottom: 0px;
+}
+
+#experience hr {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    border: 0;
+    width: 20%;
+}
+
+#experience .row .col .row {
+    padding-top: 40px; 
+}
