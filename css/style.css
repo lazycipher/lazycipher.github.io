@@ -470,3 +470,12 @@ footer p {
 .commit {
     color: #0366d6;
 }
+
+.blog-list {
+    text-align: left;
+}
+ 
+.blog-list a {
+    font-size: 20px;
+    font-weight: bold;
+}
