@@ -449,3 +449,24 @@ footer p {
 #experience .row .col .row {
     padding-top: 40px; 
 }
+
+#commits {
+    text-align: left;
+}
+#commits .PR {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.PR  a {
+    color: black
+}
+
+.author {
+    color: black;
+}
+
+.commit {
+    color: #0366d6;
+}
